@@ -1,4 +1,4 @@
-package java_basic;
+
 class backeryOrder{
     public static void main(String[] args){
         int total_value = 0;

@@ -1,4 +1,4 @@
-package java_basic;
+
 class fibonacci{
     public static void main(String[] args){
         int start_number = Integer.parseInt(args[0]);

@@ -1,4 +1,4 @@
-package java_basic;
+
 class vending_machine{
     public static void main(String[] args){
         int total_value = 0;
