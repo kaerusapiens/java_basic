@@ -4,14 +4,24 @@ class BattleGround{
     public static void main(String[] args) {
         String player1 = args[0];
         String player2 = args[1];
+<<<<<<< HEAD
 
         Player a = new Player(player1);
         Player b = new Player(player2);
+=======
+        String referee = args[2];
+
+        Player a = new Player(player1);
+        Player b = new Player(player2);
+        Referee c = new Referee(referee);
+
+>>>>>>> 1f991cc (public attribute to private)
 
         // ランダムな手を生成
         a.makeHandSake();
         b.makeHandSake();
 
+<<<<<<< HEAD
         // 結果を表示
         System.out.println(player1 + " chose: " + a.handStatus);
         System.out.println(player2 + " chose: " + b.handStatus);
@@ -30,3 +40,8 @@ class BattleGround{
         }
     }
 }
+=======
+        c.judement(a.getName(),a.getHandStatus(),b.getName(),b.getHandStatus());
+    }
+    }
+>>>>>>> 1f991cc (public attribute to private)
